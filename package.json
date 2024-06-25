@@ -1,32 +1,32 @@
 {
-  "name": "glitch-hello-node",
-  "version": "0.1.0",
-  "description": "A simple Node app built on fastify, instantly up and running. Built to be remixed on Glitch.com.",
-  "main": "server.js",
+  "name": "fcc-library",
+  "version": "1.0.0",
+  "description": "boilerplate",
+  "main": "/src/views/index.html",
   "scripts": {
-    "start": "node server.js"
+    "start": "parcel ./src/views/index.html",
+    "build": "parcel build ./src/views/index.html"
+  },
+  "devDependencies": {
+    "parcel": "^2.0.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.2.0"
   },
   "dependencies": {
-    "body-parser": "^1.20.2",
-		"chai": "^4.2.0",
-		"chai-http": "^4.3.0",
-		"cors": "^2.8.5",
-		"dotenv": "^8.6.0",
-		"express": "^4.19.2",
-		"mocha": "^3.5.3",
-		"mongodb": "^5.5.0",
-		"mongoose": "^6.13.0",
-		"zombie": "^5.0.5"
+    "body-parser": "1.20.2",
+    "chai": "5.1.1",
+    "chai-http": "5.0.0",
+    "cors": "2.8.5",
+    "dotenv": "^8.6.0",
+    "express": "4.19.2",
+    "mocha": "^3.5.3",
+    "mongodb": "^5.5.0",
+    "mongoose": "8.4.3",
+    "zombie": "^5.0.5",
+    "jquery": "3.7.1"
   },
-  "engines": {
-    "node": "14.x"
-  },
-  "repository": {
-    "url": "https://glitch.com/edit/#!/glitch-hello-node"
-  },
-  "license": "MIT",
   "keywords": [
-    "node",
-    "glitch"
+    "css",
+    "javascript"
   ]
 }
